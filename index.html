@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Fonte custom -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fim font -->
+
+    <title>Cafeteria Mesmo</title>
+  </head>
+  <body>
+    <header id="cabecalho" class="sticky-top">
+      <div class="container">
+        <div class="navbar navbar-expand-lg">
+          <h1>Cafeteria Mesmo</h1>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav id="menu" class="collapse navbar-collapse justify-content-end">
+            <ul class="nav nav-pills justify-content-center">
+              <li class="nav-item m-2">
+                <a class="nav-link active" href="#carousel"
+                  ><i class="bi bi-cup-hot-fill"></i> Home</a
+                >
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link" href="#eventos"
+                  ><i class="bi bi-cake2-fill"></i> Eventos</a
+                >
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link" href="#cardapio"
+                  ><i class="bi bi-list-check"></i> Cardápio</a
+                >
+              </li>
+              <li class="nav-item m-2">
+                <a class="nav-link" href="#fale-conosco"
+                  ><i class="bi bi-telephone-fill"></i> Contato</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="container" data-bs-spy="scroll" bata-bs-target="#cabecalho">
+      <div class="row">
+        <div class="col">
+          <section class="card overflow-hidden mt-5">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4500">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2020/10/07/12/33/cafe-5635015_1280.jpg"
+                    alt="Foto do interior de uma cafeteria"
+                  />
+                  <div class="carousel-caption">
+                    <h2 class="card">Venha conhecer a Cafeteria Mesmo</h2>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4500">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2019/03/24/14/23/bread-4077812_960_720.jpg"
+                    alt="Foto de croissants"
+                  />
+                  <div class="carousel-caption">
+                    <h2 class="card">Prove nossos pães!</h2>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4500">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2018/03/05/06/37/coffee-3200073_1280.jpg"
+                    alt="Foto de uma mesa com uma xícara de café, papéis de trabalho, um óculos e dois cupcakes"
+                  />
+                  <div class="carousel-caption">
+                    <h2 class="card">
+                      Seja para celebrar ou trabalhar, estaremos aqui!
+                    </h2>
+                  </div>
+                </div>
+                <button class="carousel-control-prev">
+                  <span
+                    class="carousel-control-prev-icon"
+                    data-bs-target="#carousel"
+                    data-bs-slide="prev"
+                  ></span>
+                </button>
+                <button class="carousel-control-next">
+                  <span
+                    class="carousel-control-next-icon"
+                    data-bs-target="#carousel"
+                    data-bs-slide="next"
+                  ></span>
+                </button>
+              </div>
+            </div>
+            <section id="sobre-nos" class="row mt-5">
+              <div class="card col-11 col-lg-2 mx-4 p-0">
+                <img
+                  class="w-100"
+                  src="https://cdn.pixabay.com/photo/2020/07/18/16/29/coffee-5417663_960_720.png"
+                  alt="Ilustração de xícaras, grãos de café e lábios"
+                />
+              </div>
+              <div class="col-lg-8 col-11 m-3">
+                <h3>Nossa <span>história</span></h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                voluptatum ullam facilis non quaerat distinctio labore.
+                <h3>Sobre o nosso <span>espaço</span></h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
+                debitis soluta reprehenderit tenetur asperiores beatae
+                temporibus esse porro, incidunt saepe, tempora eum perspiciatis
+                sunt dignissimos dolorem?
+              </div>
+            </section>
+            <section id="eventos" class="mt-5 py-3 alternativa">
+              <h2 class="text-center"><span>Eventos</span></h2>
+              <div class="row justify-content-center">
+                <div class="col-lg-3 col-10 m-lg-4 m-2">
+                  <div class="card text-center pb-3">
+                    <div class="card-header text-center">
+                      <span>Aniversários</span>
+                    </div>
+                    <div class="card-body p-0">
+                      <img
+                        class="w-100"
+                        src="https://cdn.pixabay.com/photo/2020/03/18/15/49/cupcakes-4944589_640.jpg"
+                        alt=""
+                      />
+                      <p class="card-text p-3">
+                        Venha comemorar seu aniversário ou de seus familiares
+                        conosco! Temos diversos tipos de opções temáticas
+                      </p>
+                      <a href="#" class="btn btn-primary">Saiba mais!</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-10 m-lg-4 m-2">
+                  <div class="card text-center pb-3">
+                    <div class="card-header text-center">
+                      <span>Reuniões fechadas</span>
+                    </div>
+                    <div class="card-body p-0">
+                      <img
+                        class="w-100"
+                        src="https://cdn.pixabay.com/photo/2016/02/03/17/38/coffee-break-1177540_1280.jpg"
+                        alt=""
+                      />
+                      <p class="card-text p-3">
+                        Reserve nosso espaço para uma reunião e deixe que nós
+                        nos preocupamos com o resto!
+                      </p>
+                      <a href="#" class="btn btn-primary">Saiba mais!</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-10 m-lg-4 m-2">
+                  <div class="card text-center pb-3">
+                    <div class="card-header text-center">
+                      <span>Celebrações</span>
+                    </div>
+                    <div class="card-body p-0">
+                      <img
+                        class="w-100"
+                        src="https://cdn.pixabay.com/photo/2022/03/08/13/41/drinks-7055770_1280.jpg"
+                        alt=""
+                      />
+                      <p class="card-text p-3">
+                        Seus melhores momentos podem ficar mais memoráveis.
+                        Reserve e reuna aqueles que mais importam!
+                        <br />
+                      </p>
+                      <a href="#" class="btn btn-primary">Saiba mais!</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="cardapio" class="row py-3">
+              <h2 class="text-center">Nosso <span>cardápio</span></h2>
+              <div class="container mx-lg-4 p-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium nostrum eaque esse et quia voluptatum. Nam pariatur
+                iste similique odit quos, doloremque unde vel placeat ipsa
+                impedit totam ipsam temporibus?
+              </div>
+              <div class="container px-lg-5">
+                <nav class="nav nav-tabs">
+                  <button
+                    data-bs-toggle="tab"
+                    data-bs-target="#aba_cafes"
+                    class="nav-link active"
+                  >
+                    Cafés
+                  </button>
+                  <button
+                    data-bs-toggle="tab"
+                    data-bs-target="#aba_paes"
+                    class="nav-link"
+                  >
+                    Pães
+                  </button>
+                  <button
+                    data-bs-toggle="tab"
+                    data-bs-target="#aba_doces"
+                    class="nav-link"
+                  >
+                    Doces
+                  </button>
+                  <button
+                    data-bs-toggle="tab"
+                    data-bs-target="#aba_bebidas"
+                    class="nav-link"
+                  >
+                    Bebidas
+                  </button>
+                </nav>
+                <div class="tab-content">
+                  <div id="aba_cafes" class="tab-pane p-4 active">
+                    <div class="row justify-content-center">
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2016/11/29/02/10/caffeine-1866758_960_720.jpg"
+                          alt="Foto de um cappuccino visto de cima"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Cappuccino</h5>
+                          <p class="card-text">
+                            Experimente já o nosso maravilhoso cappuccino!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2014/12/11/02/56/coffee-563797_960_720.jpg"
+                          alt="Foto de café preto, taça de leite e uma colher com um cubo de açúcar"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Café com ou sem açucar</h5>
+                          <p class="card-text">
+                            Café de acordo com a sua preferencia.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2016/11/29/02/10/caffeine-1866758_960_720.jpg"
+                          alt="Foto de um cappuccino visto de cima"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Cappuccino</h5>
+                          <p class="card-text">
+                            Experimente já o nosso maravilhoso cappuccino!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2014/12/11/02/56/coffee-563797_960_720.jpg"
+                          alt="Foto de café preto, taça de leite e uma colher com um cubo de açúcar"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Café com ou sem açucar</h5>
+                          <p class="card-text">
+                            Café de acordo com a sua preferencia.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2016/11/29/02/10/caffeine-1866758_960_720.jpg"
+                          alt="Foto de um cappuccino visto de cima"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Cappuccino</h5>
+                          <p class="card-text">
+                            Experimente já o nosso maravilhoso cappuccino!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2014/12/11/02/56/coffee-563797_960_720.jpg"
+                          alt="Foto de café preto, taça de leite e uma colher com um cubo de açúcar"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Café com ou sem açucar</h5>
+                          <p class="card-text">
+                            Café de acordo com a sua preferencia.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2016/11/29/02/10/caffeine-1866758_960_720.jpg"
+                          alt="Foto de um cappuccino visto de cima"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Cappuccino</h5>
+                          <p class="card-text">
+                            Experimente já o nosso maravilhoso cappuccino!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2014/12/11/02/56/coffee-563797_960_720.jpg"
+                          alt="Foto de café preto, taça de leite e uma colher com um cubo de açúcar"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Café com ou sem açucar</h5>
+                          <p class="card-text">
+                            Café de acordo com a sua preferencia.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="aba_paes" class="tab-pane p-4">
+                    <div class="row justify-content-center">
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2012/02/29/12/17/bread-18987_640.jpg"
+                          alt="Foto de um croissant"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Croissant</h5>
+                          <p class="card-text">
+                            Peça nosso maravilhoso croissant!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2013/08/31/16/31/baguette-177858_640.jpg"
+                          alt="Foto de pães tipo baguete"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Baguete</h5>
+                          <p class="card-text">
+                            Baguetes com receita passada entre gerações!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2012/02/29/12/17/bread-18987_640.jpg"
+                          alt="Foto de um croissant"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Croissant</h5>
+                          <p class="card-text">
+                            Peça nosso maravilhoso croissant!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2013/08/31/16/31/baguette-177858_640.jpg"
+                          alt="Foto de pães tipo baguete"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Baguete</h5>
+                          <p class="card-text">
+                            Baguetes com receita passada entre gerações!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="aba_doces" class="tab-pane p-4">
+                    <div class="row justify-content-center">
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2017/06/03/23/59/cake-2370013_640.jpg"
+                          alt="Foto de bolo de chocolate com morango"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo chocolate/morango</h5>
+                          <p class="card-text">
+                            Experimente nossa especialidade!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2017/03/15/19/18/tartlet-2147173_1280.jpg"
+                          alt="Foto torta de limão"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Torta de limão</h5>
+                          <p class="card-text">
+                            Prove nossa premiada torta de limão!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2017/06/03/23/59/cake-2370013_640.jpg"
+                          alt="Foto de bolo de chocolate com morango"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Bolo chocolate/morango</h5>
+                          <p class="card-text">
+                            Experimente nossa especialidade!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2017/03/15/19/18/tartlet-2147173_1280.jpg"
+                          alt="Foto torta de limão"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Torta de limão</h5>
+                          <p class="card-text">
+                            Prove nossa premiada torta de limão!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="aba_bebidas" class="tab-pane p-4">
+                    <div class="row justify-content-center">
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2014/09/26/19/51/drink-462776_1280.jpg"
+                          alt="Foto coca cola com copo com limão e gelo"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Coca-cola</h5>
+                          <p class="card-text">Temos também refrigerantes.</p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2020/05/10/05/14/pepsi-5152332_1280.jpg"
+                          alt="Foto de lata de Pepsi cola"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Pepsi</h5>
+                          <p class="card-text">
+                            De todas as marcas mais populares!
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2014/09/26/19/51/drink-462776_1280.jpg"
+                          alt="Foto coca cola com copo com limão e gelo"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Coca-cola</h5>
+                          <p class="card-text">Temos também refrigerantes.</p>
+                        </div>
+                      </div>
+                      <div class="card col-lg-2 m-4 p-0">
+                        <img
+                          class="card-img-top w-100"
+                          src="https://cdn.pixabay.com/photo/2020/05/10/05/14/pepsi-5152332_1280.jpg"
+                          alt="Foto de lata de Pepsi cola"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Pepsi</h5>
+                          <p class="card-text">
+                            De todas as marcas mais populares!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="fale-conosco" class="py-3 px-5 alternativa">
+              <h2 class="text-center">Fale <span>conosco</span></h2>
+              <div class="row">
+                <div class="col-lg-7 col-12 mb-5">
+                  <form id="form_contato">
+                    <div>
+                      <label for="contato_nome" class="form-label"
+                        >Seu nome:</label
+                      ><input
+                        id="contato_nome"
+                        name="nome"
+                        class="form-control"
+                        type="text"
+                      />
+                    </div>
+                    <div>
+                      <label for="contato_email" class="form-label">Email</label
+                      ><input
+                        id="contato_email"
+                        name="email"
+                        class="form-control"
+                        type="text"
+                      />
+                    </div>
+                    <div>
+                      <label for="contato_fone" class="form-label">Fone</label
+                      ><input
+                        id="contato_fone"
+                        name="fone"
+                        class="form-control"
+                        type="text"
+                      />
+                    </div>
+                    <div>
+                      <label for="contato_msg" class="form-label"
+                        >Sua mensagem</label
+                      ><textarea
+                        id="contato_msg"
+                        name="mensagem"
+                        class="form-control"
+                        cols="30"
+                        rows="10"
+                      ></textarea>
+                      <button
+                        class="btn btn-success my-3 w-lg-100"
+                        type="submit"
+                      >
+                        Enviar
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-lg-5 col-12">
+                  <p class="h3 text-center"><span>Redes Sociais</span></p>
+                  <ul class="p-2 rounded">
+                    <li><i class="bi bi-facebook"></i> Facebook</li>
+                    <li><i class="bi bi-instagram"></i> Instagram</li>
+                    <li><i class="bi bi-whatsapp"></i> Whatsapp</li>
+                  </ul>
+                  <p><span>Endereço</span></p>
+                  Rua teste, nº 4321 - Bairro Bootstrap - Brasil
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

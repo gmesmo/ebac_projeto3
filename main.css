@@ -1,0 +1,120 @@
+body {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+}
+
+#cabecalho,
+.card-body a {
+  background-color: rgb(228, 115, 10);
+  color: white;
+}
+
+.btn {
+  background-color: rgb(228, 115, 10);
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(228, 115, 10);
+}
+
+#carousel {
+  scroll-margin-top: -50px;
+}
+
+#eventos,
+#cardapio {
+  scroll-margin-top: 80px;
+}
+
+h1 {
+  user-select: none;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-pills .nav-link.active {
+  background-color: white;
+  color: rgb(228, 115, 10);
+}
+
+.nav-pills .nav-link:hover {
+  outline: 1px solid white;
+  color: white;
+}
+
+span,
+span.h3,
+.nav-pills .nav-link.nav-link.active:hover {
+  color: rgb(228, 115, 10);
+}
+
+.carousel-item img {
+  height: 45dvh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.alternativa {
+  background-color: rgba(228, 115, 10, 0.425);
+}
+
+.card-body img {
+  object-fit: cover;
+  height: 250px;
+}
+
+.card-body p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.card-body a {
+  border: 1px solid white;
+}
+
+.card-body a:hover {
+  background-color: white;
+  color: rgb(228, 115, 10);
+  border: solid 1px rgb(228, 115, 10);
+  font-weight: bolder;
+}
+
+#cardapio .nav-link {
+  color: rgb(228, 115, 10);
+}
+
+#cardapio .nav-link.active,
+.tab-pane {
+  background-color: rgb(228, 115, 10);
+  color: white;
+}
+
+#cardapio img {
+  height: 125px;
+  object-fit: cover;
+}
+
+#cardapio h5 {
+  color: rgb(228, 115, 10);
+}
+
+textarea {
+  resize: none;
+  height: 150px;
+}
+
+#fale-conosco ul {
+  background-color: white;
+  color: rgb(228, 115, 10);
+  list-style: none;
+}
